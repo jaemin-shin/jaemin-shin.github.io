@@ -4,7 +4,35 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h1 style="font-size:1.2em" class="archive__subtitle">About me</h1>
+<div style="font-size:0.9em">
+  I am a Ph.D. student in <a style="color:black" href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab (NMSL)</a> at <a style="color:black" href="https://kaist.ac.kr">KAIST</a>, advised by Prof. <a style="color:black" href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. My research interest mainly lies in developing and facilitating mobile and wearable AI systems for human health and well-being.
+  <br>
+  <br>
+  I received my B.S. degree in Computer Science from KAIST in 2018. I worked as a research intern in <a style="color:black" href="https://www.microsoft.com/en-us/research/group/systems-and-networking-research-group-asia/">Systems and Networking Research Group</a> at <a style="color:black" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia (MSRA)</a> from December 2020 to June 2021, where I was mentored by Dr. <a style="color:black" href="https://ylimit.github.io/">Yuanchun Li</a> and Dr. <a style="color:black" href="https://yunxinliu.github.io/">Yunxin Liu</a>. At MSRA, I worked on a project that proposes a systematic approach for efficient federated learning on heterogeneous mobile clients.
+</div>
+
+<h1 style="font-size:1.2em" class="archive__subtitle">Publications</h1>
+<b>Conferences and Journals</b>
+<ul>
+  <li style="font-size:0.9em"><b>[</b><b style="color:#A52A2A">CHI'22</b><b>] MyDJ: Sensing Food Intakes with an Attachable on Your Eyeglass Frame</b><br><div style="font-size:0.85em"><u>Jaemin Shin</u>, Seungjoo Lee, Taesik Gong, Hyungjun Yoon, Hyunchul Roh, Andrea Bianchi, and Sung-Ju Lee<br>[pdf] [slides] [bibtex]</div></li>
+  <li style="font-size:0.9em"><b>[</b><b style="color:#A52A2A">Ad Hoc Networks'19</b><b>] Use MU-MIMO at Your Own Risk - Why We Don't Get Gb/s Wi-Fi</b><br><div style="font-size:0.85em">Hyunwoo Choi, Taesik Gong, Jaehun Kim, <u>Jaemin Shin</u>, and Sung-Ju Lee<br>[<a href="https://drive.google.com/file/d/1HIQ4dGDcHuk83XHPA09_w7T1NJuNKXxt/view?usp=sharing">pdf</a>] [<a href="https://drive.google.com/file/d/1KFtXC0fflkBLnyV85UjSAXce9MZFlrl5/view?usp=sharing">bibtex</a>]</div></li>
+</ul>
+<b>Posters, Demos, and Workshop Papers</b>
+<ul>
+  <li style="font-size:0.9em"><b>[</b><b style="color:#A52A2A">MobiSys'19</b><b>] Demo: Accurate Eating Detection on a Daily Wearable Necklace</b><br><div style="font-size:0.85em"><u>Jaemin Shin</u>, Seungjoo Lee, and Sung-Ju Lee<br>[<a href="https://drive.google.com/file/d/1kE9v52wG22_bDAgvMpAnwAq-i7qFHiYO/view?usp=sharing">pdf</a>] [<a href="https://drive.google.com/file/d/1QqND3k6JPTTwnWnnY_s1_KnYCwu0ksjB/view?usp=sharing">bibtex</a>]</div></li>
+  <li style="font-size:0.9em"><b>[</b><b style="color:#A52A2A">MobiSys'19</b><b>] Poster: Dissecting 802.11ac Performance-Why You Should Turn Off MU-MIMO</b><br><div style="font-size:0.85em">Hyunwoo Choi, Taesik Gong, Jaehun Kim, <u>Jaemin Shin</u>, and Sung-Ju Lee<br>[<a href="https://drive.google.com/file/d/1Q8h376wVqnK7MUboGt7WLT25dhBj_iuB/view?usp=sharing">pdf</a>] [<a href="https://drive.google.com/file/d/1jrqJDjUAZNHS6M7aUuNPPAZc-auxFku2/view?usp=sharing">bibtex</a>]</div></li>
+  <li style="font-size:0.9em"><b>[</b><b style="color:#A52A2A">CAN'17 @ CoNEXT</b><b>] Considerations on Deploying High-Performance Container-based NFV</b><br><div style="font-size:0.85em">*DeokGi Hong, *<u>Jaemin Shin</u>, Shinae Woo, and Sue Moon (* equal contributions)<br>[<a href="https://drive.google.com/file/d/1YyztEFwVipaqP5TAtpDPnOrXDcQ8tnQV/view?usp=sharing">pdf</a>] [<a href="https://drive.google.com/file/d/10cM6-A4gvgWCgyw8RwMF95jfBnhx8Akq/view?usp=sharing">bibtex</a>] (<b style="color:#A52A2A"><i>Best Paper Award</i></b>)</div></li>
+</ul>
+
+<!-- <h1 style="font-size:1.2em" class="archive__subtitle">Awards</h1> -->
+
+<h3 style="font-size:1.2em" class="archive__subtitle">Professional Services</h3>
+<ul>
+  <li style="font-size:0.9em">Reviewer @ <i>ACM IMWUT</i>, 2020-2021</li>
+  <li style="font-size:0.9em">Reviewer @ <i>IEEE Transactions on Mobile Computing</i>, 2018</li>
+</ul>
+
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
