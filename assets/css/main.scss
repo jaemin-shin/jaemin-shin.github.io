@@ -2,7 +2,46 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@charset "utf-8";
+$sans-serif: 'Heebo';
+$monospace: 'Ubuntu Mono';
+$type-size-4-5: 1.5em !default; // Ubuntu Mono is a bit small
 
+@charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@import url(https://fonts.googleapis.com/css?family=Heebo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900|Ubuntu+Mono);
+
+// https://github.com/mmistakes/minimal-mistakes/issues/1219
+html {
+  font-size: 14px; // change to whatever
+  
+  @include breakpoint($medium) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 18px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 20px; // change to whatever
+  }
+}
+
+.highlight {
+  font-family: $sans-serif;
+  font-size: $type-size-4-5;
+}
+
+.language-plaintext {
+  font-family: $sans-serif;
+  font-size: $type-size-5;
+  background: #c0ffee;
+}
+
+:root {
+--large-size: 1.2em;
+--middle-size: 0.9em;
+--small-size: 0.95em;
+}
