@@ -104,9 +104,9 @@ analytics:
 author:
   name             : "Jaemin Shin"
   avatar           : /assets/images/jaemin_final.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Candidate @ KAIST"
-  location         : "Daejeon, Republic of Korea"
-  email            : "jaemin.shin@kaist.ac.kr"
+  bio              : "Ph.D. in Computer Science"
+  location         : "Seoul, Republic of Korea"
+  email            : "jaeminshin33 at gmail dot com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
