@@ -104,8 +104,8 @@ analytics:
 author:
   name             : "Jaemin Shin"
   avatar           : /assets/images/jaemin_final.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. in Computer Science"
-  location         : "Santa Clara, California"
+  bio              : "Applied Scientist at Amazon"
+  location         : "Santa Clara, CA"
   email            : "jaeminshin33 at gmail dot com"
   links:
     - label: "Email"
